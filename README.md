@@ -15,10 +15,10 @@ kaggle datasets download -d huaijiwang/coral-data
 
 cd segment python train.py
 
-#run coralyolov5/segment/train.py to verify my trained model or your trained model, you also need to modify the path in the file.
+#run coralyolov5/segment/train.py to verify my trained model or your trained model, you also need to modify the path in the file. You can get my trained weight from https://www.kaggle.com/datasets/huaijiwang/coral-data
 
 python val.py
 
-#run coralyolov5/segment/predict2coral.py to get the whitening rate and the health rate, you also need to modify the path in the file.
+#run coralyolov5/segment/predict2coral.py to get the whitening rate and the health rate, you also need to modify the path in the file. You can get my trained weight from https://www.kaggle.com/datasets/huaijiwang/coral-data
 
 python predict2coral.py
