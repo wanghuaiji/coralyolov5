@@ -11,14 +11,14 @@ pip install -r requirements.txt # install
 kaggle datasets download -d huaijiwang/coral-data
 
 #Modify the dataset.py path of the train.py file in the segment folder to your own path, and modify the data storage path in the dataset.py file to your own path.
-#run coralyolov5/segment/train.py to train a model
+#run coralyolov5/segment/train.py to train a model.
 
 cd segment python train.py
 
-#run coralyolov5/segment/train.py to verify my trained model or your trained model
+#run coralyolov5/segment/train.py to verify my trained model or your trained model, you also need to modify the path in the file.
 
 python val.py
 
-#run coralyolov5/segment/predict2coral.py to get the whitening rate and the health rate
+#run coralyolov5/segment/predict2coral.py to get the whitening rate and the health rate, you also need to modify the path in the file.
 
 python predict2coral.py
