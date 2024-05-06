@@ -1,0 +1,4 @@
+train: E:/team/coral/YOLODataset4/images/train
+val: E:/team/coral/YOLODataset4/images/val
+nc: 2
+names: ["coral","unhealthy"]
